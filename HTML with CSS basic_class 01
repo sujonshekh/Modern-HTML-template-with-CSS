@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* CSS Reset */
+     *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+     }
+     .box{
+    
+        background: #f4f4f4f4;
+        border: 2px #777 solid;
+        width: 500px;
+
+        /*padding on all side  */
+        padding: 20px;
+
+        /* padding per side shorthand = top, right, bottom, left */
+
+        padding: 10px 20px 10px 20px;
+
+        /* padding shorthand top & bottom/ Left & Right */
+
+        padding: 10px 20px;
+        /* margin for all side */
+        
+        margin: 20px;
+        
+        /* margin on all side shorthand = top, right, bottom, left */
+        
+        margin: 10px 20px 10px 20px;
+        
+        /* margin shorthand top & bottom/ Left & Right */
+        margin: 10px 20px;
+
+     }
+     
+    </style>
+</head>
+<body>
+  <div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime reiciendis ipsam labore incidunt maiores est modi deleniti voluptatibus assumenda possimus?</p>
+  </div>
+  <div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime reiciendis ipsam labore incidunt maiores est modi deleniti voluptatibus assumenda possimus?</p>
+  </div>
+  <div class="box">
+    <h3>Box One</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime reiciendis ipsam labore incidunt maiores est modi deleniti voluptatibus assumenda possimus?</p>
+  </div>
+</body>
+</html>
