@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu Style</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /* Nav menu */
+        .nav-menu {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #4c6ca0;
+            overflow: auto;
+        }
+        .nav-menu li {
+            float: left;
+            
+        }
+        .nav-menu li a {
+            display: block;
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+        .nav-menu li a:hover {
+            background-color: #446190;
+            color: coral;
+
+
+        }
+
+        /* Jhon menu */
+        .jhon-menu {
+            list-style: none;
+            background: #333;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: auto;
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .jhon-menu li {
+            float: left;
+
+        }
+        .jhon-menu li a {
+            display: block;
+            text-decoration: none;
+            color: #ddd;
+            padding: 15px 20px;
+        }
+
+        .jhon-menu li a:hover {
+            background-color: black;
+            color: rgb(39, 224, 144);
+        }
+        /* side menu */
+        .side-menu {
+            list-style: none;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+           
+        }
+        .side-menu li {
+            font-size: 18px;
+            line-height: 2.4em;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        /* This is for last border line remove */
+
+        .side-menu li:last-child {
+            border: none;
+        }
+        .side-menu li a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .side-menu li a:hover {
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <br>
+    <br>
+    <ul class="jhon-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <br>
+    <br>
+    <ul class="side-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+</body>
+</html>
