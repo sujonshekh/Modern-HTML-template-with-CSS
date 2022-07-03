@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning</title>
+    <style>
+        body{
+            height: 2000px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+        }
+        /* In any Div/class sector position is relative for moving left/right any where content or box */
+        .container {
+            position: relative;
+            background: #333;
+            width: 500px;
+            height: 500px;
+        }
+        #box-1 {
+             position: absolute;
+             top: 250px;
+            
+             
+             background: red;
+             z-index: 1;
+        }
+        #box-2 {
+            position:absolute;
+            top: 1px;
+            right: 1px;
+            
+            background: yellow;
+        }
+        #box-3 {
+             position: absolute;
+             top: 10px;
+             left: 10px;
+             background: green;
+        }
+        #box-4 {
+             left: 0px;
+             position: fixed;
+             background: blue;
+        }
+        #box-5 {
+             position: sticky;
+             background: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="box-1" class="box"></div>
+    <div class="container">
+        <div id="box-2" class="box"></div>
+        <div id="box-3" class="box"></div>
+    </div>
+    <div id="box-4" class="box"></div>
+    <div id="box-5" class="box"></div>
+</body>
+</html>
