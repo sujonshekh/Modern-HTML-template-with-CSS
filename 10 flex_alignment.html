@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flex alignment</title>
+    <style>
+        #container {
+            background-color: darksalmon;
+            display: flex;
+            /* Align items horizontal  */
+            justify-content: space-around;
+            padding: 20px;
+            /* flex-wrap: wrap; */
+            height: 500px;
+            /* Align items vertical (must be height) */
+            align-items: baseline;
+
+            /*
+            OPTIONS:
+            felx-start
+            flex-end
+            center
+            space-between
+            space-around
+            space-even;
+            // align-item "stretch is item hight"
+            align-items: stretch;
+            */ 
+
+             /* Align items vertical where extra space*/
+            align-content: space-between;
+
+        }
+
+        .item {
+
+            padding: 1rem;
+            margin: .50rem;
+            background: #333;
+            text-align: center;
+            color: antiquewhite;
+            border: #f0f0f0 1px solid;
+        }
+      .item-1 {
+            order: 4;
+        }
+
+      .item-2 {
+        align-self: center;
+        color: aqua;
+        order: 3;
+      }
+
+      .item-3 {
+        order: 2;
+      }
+
+      .item-4 {
+        align-self: flex-end;
+        color: dodgerblue;
+        order: 1;
+      }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item item-1"><h1>1</h1></div>
+        <div class="item item-2"><h1>2</h1></div>
+        <div class="item item-3"><h1>3</h1></div>
+        <div class="item item-4"><h1>4</h1></div>
+    </div>
+</body>
+</html>
